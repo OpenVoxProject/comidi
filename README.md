@@ -2,8 +2,6 @@
 
 A committee approach to defining Clojure HTTP routes.
 
-[![Build Status](https://travis-ci.org/puppetlabs/comidi.svg?branch=master)](https://travis-ci.org/puppetlabs/comidi)
-
 Comidi is a library containing utility functions and [compojure](https://github.com/weavejester/compojure)-like syntax-sugar
 wrappers around the [bidi](https://github.com/juxt/bidi) web routing library.
 It aims to provide a way to define your web routes that takes advantage of the
@@ -18,7 +16,7 @@ strengths of both bidi and compojure:
 
 ## Quick Start
 
-[![Clojars Project](http://clojars.org/puppetlabs/comidi/latest-version.svg)](http://clojars.org/puppetlabs/comidi)
+[![Clojars Project](http://clojars.org/org.openvoxproject/comidi/latest-version.svg)](http://clojars.org/org.openvoxproject/comidi)
 
 ```clj
 (let [my-routes (context "/my-app/"
@@ -119,7 +117,7 @@ routes the request matches.  e.g.:
 
 ## Trapperkeeper / Metrics Integration
 
-The [`trapperkeeper-comidi-metrics`](https://github.com/puppetlabs/trapperkeeper-comidi-metrics) contains some middleware that will automatically generate and track [metrics](https://github.com/dropwizard/metrics) for all of the routes in your comidi/bidi route tree, as well as easy integration into [`trapperkeeper`](https://github.com/puppetlabs/trapperkeeper).
+The [`trapperkeeper-comidi-metrics`](https://github.com/openvoxproject/trapperkeeper-comidi-metrics) contains some middleware that will automatically generate and track [metrics](https://github.com/dropwizard/metrics) for all of the routes in your comidi/bidi route tree, as well as easy integration into [`trapperkeeper`](https://github.com/openvoxproject/trapperkeeper).
 
 ## What's next?
 
@@ -134,6 +132,4 @@ The [`trapperkeeper-comidi-metrics`](https://github.com/puppetlabs/trapperkeeper
 
 ## Support
 
-We use the
-[Trapperkeeper project on JIRA](https://tickets.puppetlabs.com/browse/TK)
-for tickets on Comidi, although Github issues are welcome too.
+GitHub issues and PRs are welcome! Additionally, drop us a line in [the Vox Pupuli Slack](https://voxpupuli.slack.com).
