@@ -1,6 +1,8 @@
 (defproject org.openvoxproject/comidi "1.0.1-SNAPSHOT"
   :description "OpenVox utility functions and compojure-like wrappers for use with the bidi web routing library"
   :url "https://github.com/openvoxproject/comidi"
+  :license {:name "Apache License, Version 2.0"
+            :url "http://www.apache.org/licenses/LICENSE-2.0.html"}
 
   :pedantic? :abort
 
