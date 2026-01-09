@@ -19,7 +19,7 @@
 
                  [bidi "2.1.6"]
                  [compojure "1.7.1"]
-                 [prismatic/schema "1.1.12"]
+                 [prismatic/schema "1.4.1"]
                  [org.openvoxproject/kitchensink "3.5.3"]]
 
   :deploy-repositories [["releases" {:url "https://clojars.org/repo"
