@@ -13,14 +13,17 @@
   ;; defined under :dependencies ends up causing an error due to :pedantic? :abort,
   ;; because it is a dep of a dep with a different version, move it here.
   :managed-dependencies [[org.clojure/clojure "1.12.4"]
-                         [commons-io "2.21.0"]]
+                         [bidi "2.1.6"]
+                         [commons-io "2.21.0"]
+                         [compojure "1.7.2"]
+                         [org.openvoxproject/kitchensink "3.5.5"]
+                         [prismatic/schema "1.4.1"]]
 
   :dependencies [[org.clojure/clojure]
-
-                 [bidi "2.1.6"]
-                 [compojure "1.7.2"]
-                 [prismatic/schema "1.4.1"]
-                 [org.openvoxproject/kitchensink "3.5.5"]]
+                 [bidi]
+                 [compojure]
+                 [org.openvoxproject/kitchensink]
+                 [prismatic/schema]]
 
   :deploy-repositories [["releases" {:url "https://clojars.org/repo"
                                      :username :env/CLOJARS_USERNAME
