@@ -14,7 +14,7 @@
   ;; because it is a dep of a dep with a different version, move it here.
   :managed-dependencies [[org.clojure/clojure "1.12.4"]
                          [bidi "2.1.6"]
-                         [commons-io "2.21.0"]
+                         [commons-io "2.22.0"]
                          [compojure "1.7.2"]
                          [org.openvoxproject/kitchensink "3.5.6"]
                          [prismatic/schema "1.4.1"]]
