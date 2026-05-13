@@ -12,7 +12,7 @@
   ;; and to avoid having to define versions in multiple places. If a component
   ;; defined under :dependencies ends up causing an error due to :pedantic? :abort,
   ;; because it is a dep of a dep with a different version, move it here.
-  :managed-dependencies [[org.clojure/clojure "1.12.4"]
+  :managed-dependencies [[org.clojure/clojure "1.12.5"]
                          [bidi "2.1.6"]
                          [commons-io "2.22.0"]
                          [compojure "1.7.2"]
