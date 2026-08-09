@@ -17,7 +17,7 @@
                          [commons-io "2.22.0"]
                          [compojure "1.7.2"]
                          [org.openvoxproject/kitchensink "3.5.7"]
-                         [prismatic/schema "1.4.1"]]
+                         [prismatic/schema "1.4.2"]]
 
   :dependencies [[org.clojure/clojure]
                  [bidi]
