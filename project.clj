@@ -6,7 +6,7 @@
 
   :pedantic? :abort
 
-  :min-lein-version "2.9.1"
+  :min-lein-version "2.12.0"
 
   ;; These are to enforce consistent versions across dependencies of dependencies,
   ;; and to avoid having to define versions in multiple places. If a component
